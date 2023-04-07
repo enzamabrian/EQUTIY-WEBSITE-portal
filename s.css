@@ -1,0 +1,49 @@
+body
+    {
+        display: grid;
+        place-items: center;
+        height: 100vh;
+        background: whitesmoke
+    }
+
+    .table-search
+    {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+  table {
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 1px 1px 50px rgba(0,0,0,.2);
+  background: white;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+
+th {
+  background-color: rgba(0,0,0,.8);
+  color: white;
+}
+
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  #print-me, #print-me * 
+{
+  visibility: visible;
+  height: auto;
+}
+
+}

@@ -1,0 +1,40 @@
+.header-kyu
+{
+    min-height: 50vh;
+    width: 100%;
+    background: linear-gradient(rgba(4,9,30,.6), rgba(4,9,30,.6)),url("Gallery/equity\ 2.jpg");
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+}
+
+.kyu-header-head
+{
+    width: 90%;
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+
+}
+
+.course-col-kyu
+{
+    background: wheat;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
