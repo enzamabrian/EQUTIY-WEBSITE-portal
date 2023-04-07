@@ -86,7 +86,6 @@
         <h1>What Would you like to do dear scholar</h1>
         <a href="scholars_contact.php">REGISTER CONTACT DETAILS</a>
         <a href="update.php">UPDATE CONTACT DETAILS</a>
-        <a href="admin-login.php">ADMIN LOG IN</a>
 
 
     </div>
